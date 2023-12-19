@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+            margin-left: 0.5em;
+        }
+        p {
+            color: #666;
+            margin: 0.5em;
+            margin-bottom: 1em;
+        }
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #add8e6;
+            color: #000;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .titulo {
+            text-align: center;
+        }
+        footer {
+            background-color: #add8e6;
+            color: #000000;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Bem-vindo à Página Inicial</h1>
+    <p>Esta página visa aprimorar meu conhecimento em Node.js, uma tecnologia crucial para o desenvolvimento de aplicações web modernas, permitindo a criação de servidores eficientes e escaláveis.</p>
+    <p>Learning Node.js é essencial devido ao <strong>JavaScript Universal</strong>, <strong>Desempenho</strong>, <strong>Escalabilidade</strong>, <strong>Comunidade Vibrante</strong> e <strong>Oportunidades de Carreira</strong>.</p>
+    <p>Ao aprimorar meu conhecimento em Node.js, estou investindo em uma habilidade valiosa que pode abrir novas oportunidades e impulsionar minha carreira como desenvolvedor. 😊</p>
+
+    <h2>Apresentação</h2>
+    <p>Nesta apresentação, foi criada uma tabela para o mini projeto.</p>
+
+    <h2 class="titulo">Usuários</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each dados as |dado|}}
+                <tr>
+                    <td>{{dado.nome}}</td>
+                    <td>{{dado.idade}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+    <footer>
+        Powered by Gleysson Produções
+    </footer>
+</body>
+</html>
