@@ -57,5 +57,4 @@ Para mais informações ou dúvidas, entre em contato:
 - Email: gleysson_flavio@hotmail.com.br
 - LinkedIn: [Gleysson Flavio](https://www.linkedin.com/in/gleysson-flavio-094a17198/)
 
-**Divirta-se aprendendo Node.js!**
-```
+**Vamos divertir aprendendo Node.js!**
